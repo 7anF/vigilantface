@@ -1,0 +1,26 @@
+# data, weights and generated samples stay on the RunPod volume / local disk (too large for git)
+celeba/
+data/*.zip
+data/*.csv
+data/preprocessed_v2/
+data/legacy/
+*.zip
+*.pth
+*.pt
+red_agent/models/
+red_agent/samples*/
+red_agent_samples*/
+blue_agent/results*/
+blue_agent_*results*/
+
+# backups of earlier notebook versions are kept locally only
+*_backup.ipynb
+
+# secrets
+.env
+*.env
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
